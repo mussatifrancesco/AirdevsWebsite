@@ -1,0 +1,14 @@
+{
+  "clienti": [
+    {
+      "email": "airdevs2025@gmail.com",
+      "cartella": "",
+      "ruolo": "admin"
+    },
+    {
+      "email": "mussatifrancesco@gmail.com",
+      "cartella": "Gatto Moro",
+      "ruolo": "user"
+    }
+  ]
+}

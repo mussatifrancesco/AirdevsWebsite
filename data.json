@@ -1,0 +1,47 @@
+{
+  "home": {
+    "titolo": "AIRDEVS",
+    "sottotitolo": "INNOVAZIONE AD ALTA QUOTA",
+    "descrizione": "AirDevs non è solo un’azienda, è l’idea che il futuro non debba aspettare.<br>Siamo nati dalla voglia di un gruppo di giovani di prendere la tecnologia più avanzata e portarla fuori dai laboratori per risolvere problemi reali.<br><br>Abbiamo scelto di scommettere su settori nuovi, dove l'innovazione è una necessità.<br>Per noi, essere un team giovane significa avere il coraggio di guardare dove gli altri non arrivano, trasformando ogni volo in una soluzione concreta.<br><br>AirDevs rappresenta l’impegno di una generazione che vuole lasciare il segno. Non ci limitiamo a far volare delle macchine; usiamo il cielo per offrire prospettive diverse."
+  },
+  "droni": [
+    {
+      "nome": "DJI MINI 4 PRO",
+      "immagine": "https://www-cdn.djiits.com/cms/uploads/892e39b4b76dc5a83b267ed12ce69b97.png",
+      "specifiche": {
+        "peso": "SOTTO 249G",
+        "sensore": "CMOS DA 1/1.3\"",
+        "risoluzione foto": "12MP / 48MP",
+        "video": "4K/60FPS HDR",
+        "batteria": "DURATA ESTESA",
+        "trasmissione": "O4, FINO A 20KM",
+        "rilevamento": "OMNIDIREZIONALE"
+      }
+    }
+  ],
+  "servizi": [
+    {
+      "nome": "ISPEZIONI TECNICHE",
+      "descrizione": "Monitoraggio tetti, infrastrutture e impianti fotovoltaici con analisi termografica.",
+      "icona": "🔍"
+    },
+    {
+      "nome": "FOTOGRAMMETRIA",
+      "descrizione": "Rilievi 3D e mappe ad alta risoluzione per topografia, agricoltura e architettura.",
+      "icona": "🗺️"
+    },
+    {
+      "nome": "RIPRESE CINEMATOGRAFICHE",
+      "descrizione": "Video spettacolari in 4K per eventi, promozioni aziendali e settore immobiliare.",
+      "icona": "🎬"
+    }
+  ],
+  "social": {
+    "instagram": "https://www.instagram.com/_airdevs_/",
+    "tiktok": "https://www.tiktok.com/@_airdevs_"
+  },
+  "contatti": {
+    "email": "airdevs2025@gmail.com",
+    "telefono": "+39 3888185113"
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airdevs | Droni</title>
+    <link rel="icon" type="image/x-icon" href="./img/airdevs_logo_circle.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="static-background"></div>
+
+    <header class="glass-container header-nav">
+        <nav>
+            <ul>
+                <li><a href="#" onclick="loadPage('home')">HOME</a></li>
+                <li><a href="#" onclick="loadPage('prenota')">PRENOTA</a></li>
+                <li><a href="#" onclick="loadPage('droni')">DRONI</a></li>
+                <li><a href="#" onclick="loadPage('servizi')">SERVIZI</a></li>
+                <li><a href="#" onclick="loadPage('social')">SOCIAL</a></li>
+                <li><a href="#" onclick="loadPage('contatti')">CONTATTI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-flex">
+        <div id="main-content-area">
+            </div>
+
+        <aside id="area-personale">
+            <h2 id="login-title">Area Personale</h2>
+            
+            <div id="login-container">
+                <div id="step-request">
+                    <p style="font-size: 13px; color: #bbb; margin-bottom: 20px;">Inserisci la tua email per ricevere il codice di accesso istantaneo.</p>
+                    <input type="email" id="email" class="glass-input" placeholder="Inserisci la tua email" required>
+                    <button onclick="handleSendOTP()" class="glass-button">Ricevi Codice OTP</button>
+                </div>
+
+                <div id="step-verify" style="display: none;">
+                    <p style="font-size: 13px; color: #00d4ff; margin-bottom: 15px;">Codice inviato! Controlla la tua posta.</p>
+                    <input type="text" id="otp-code" class="glass-input" placeholder="Inserisci le 6 cifre" maxlength="6">
+                    <button onclick="handleVerifyOTP()" class="glass-button">Verifica e Accedi</button>
+                    <button onclick="resetUI()" class="glass-button" style="background: transparent; color: #888; border: 1px solid rgba(255,255,255,0.1); margin-top: 10px; font-size: 11px;">Indietro</button>
+                </div>
+            </div>
+
+            <div id="login-footer" class="login-footer">
+                <p>Non ricevi il codice? <a href="#" onclick="handleSendOTP()">Invia di nuovo</a></p>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="glass-container footer-bar">
+        <p>© AIRDEVS. ALL RIGHTS RESERVED.</p>
+        <p>TELEFONO: 3888185113 | MAIL: AIRDEVS2025@GMAIL.COM</p>
+    </footer>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("Zy1aqhk5D7ajp630q"); // Sostituisci con la chiave reale da EmailJS
+    })();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
